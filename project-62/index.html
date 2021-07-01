@@ -1,0 +1,134 @@
+<html>
+
+    <head>
+        <title>My Gallery</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <ul class="navigator">
+            <li class="link"><a href="#grid">Grid</a></li>
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#slide">Slide</a></li>
+        </ul>
+        
+        <section id="home"></section>
+        
+        <div class="line"></div>
+
+        <section id="grid">
+            <center>
+                <h2>Grid Gallery</h2>
+                <br>
+                <div class="row">
+                    <img class="img1" src="blue.jpg">
+                    <img class="img1" src="Orange.png">
+                    <img class="img1" src="Pink tulip.jpg">
+                    <img class="img1" src="purple.jpg">
+                    <br><br>
+                </div>
+                <div class="row">
+                    <img class="img1" src="Red rose.jpg">
+                    <img class="img1" src="violet.jpg">
+                    <img class="img1" src="White.jpg">
+                    <img class="img1" src="yellow.jpg">
+                    <br><br>
+                </div>
+            </center>
+        </section>
+
+        <section id="slide">
+                <h2>Sliding Gallery</h2>
+                <div id="myCarousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <center>
+                                <img class="img-reposnsive" src="blue.jpg" alt="red">
+                                <div class="carousel-caption">
+                                    <h3>Blue Flower</h3>
+                                    <p></p>
+                                </div>
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img class="img-reposnsive" src="Orange.png" alt="red">
+                                <div class="carousel-caption">
+                                    <h3>Orange Flower</h3>
+                                    <p></p>
+                                </div>
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img class="img-reposnsive" src="Pink tulip.jpg" alt="red">
+                                <div class="carousel-caption">
+                                    <h3>Pink tulip</h3>
+                                    <p></p>
+                                </div>
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img class="img-reposnsive" src="purple.jpg" alt="red">
+                                <div class="carousel-caption">
+                                    <h3>Purple Flower</h3>
+                                    <p></p>
+                                </div>
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img class="img-reposnsive" src="Red rose.jpg" alt="red">
+                                <div class="carousel-caption">
+                                    <h3>Red Rose</h3>
+                                    <p></p>
+                                </div>
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img class="img-reposnsive" src="violet.jpg" alt="red">
+                                <div class="carousel-caption">
+                                    <h3>Violet Flower</h3>
+                                    <p></p>
+                                </div>
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img class="img-reposnsive" src="White.jpg" alt="red">
+                                <div class="carousel-caption">
+                                    <h3>White Flower</h3>
+                                    <p></p>
+                                </div>
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img class="img-reposnsive" src="yellow.jpg" alt="red">
+                                <div class="carousel-caption">
+                                    <h3>Yellow Flower</h3>
+                                    <p></p>
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+        </section>
+
+    </body>
+
+</html>
